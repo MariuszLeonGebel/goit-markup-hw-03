@@ -1,0 +1,182 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* ====== GENERAL ======= */
+:root {
+  --main-color: #212121;
+  --secondary-color: #2196F3;
+  --on-background-color: #FFF;
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --secondary-background-color: #2F303A;
+  --third-background-color: #F5F4FA;
+}
+  
+body {
+  font-family: var(--main-font-family);
+  color: var(--main-color);
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--secondary-color);
+}
+
+a:focus {
+  color: var(--secondary-color);
+}
+/* ====== END GENERAL ======= */
+/* ====== HEADER ======= */
+
+.navigation-webstudio {
+  font-weight: bold;
+  font-size: 26px;
+  font-family: var(--secondary-font-family);
+}
+
+.navigation-webstudio span {
+  color: var(--secondary-color);
+}
+
+.navigation-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.header-h1 {
+  background-color: var(--secondary-background-color);
+  color: var(--on-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.zamow {
+  cursor: pointer;
+}
+
+/* ====== END HEADER ======= */
+/* ====== MAIN ======= */
+/* ====== SECTION1 ======= */
+
+.section1-headerh3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section1-p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;  
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ====== END SECTION1 ======= */
+/* ====== SECTION2 ======= */
+
+.section2-headerh2,
+.section3-headerh2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ====== END SECTION2 ======= */
+/* ====== SECTION3 ======= */
+
+.section3 {
+  background-color: var(--third-background-color);
+}
+
+.section3-item {
+   line-height: 1.339;
+   border: 1px solid grey;
+   box-shadow: 1px 3px lightgrey;
+   margin-bottom: 20px;
+}
+
+.section3-headerh4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section3-p { 
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 1.187;
+ text-align: center;
+ letter-spacing: 0.03em;
+ color: #757575;
+}
+/* ====== END SECTION3 ======= */
+/* ====== END MAIN ======= */
+/* ====== FOOTER ======= */
+
+.footer {
+  background-color: var(--secondary-background-color);
+  color: var(--on-background-color);
+}
+
+.footer a {
+  color: var(--on-background-color);
+}
+
+.footer-webstudio {
+ font-family: var(--secondary-font-family);
+ font-weight: bold;
+ font-size: 26px;
+ line-height: 1.192;
+ letter-spacing: 0.03em;
+ 
+}
+
+.footer-webstudio span {
+  color: var(--secondary-color);
+}
+
+.footer-address,
+.footer-email,
+.footer-tel
+{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* ====== END FOOTER ======= */
+/* ====================================
+==================================== */
+/* ====== PORTFOLIO ======= */
+
+.project-headerh4 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* ====== END PORTFOLIO ======= */
